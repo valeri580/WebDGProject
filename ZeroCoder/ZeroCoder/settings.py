@@ -27,6 +27,7 @@ ALLOWED_HOSTS = [h for h in os.getenv("ALLOWED_HOSTS", "127.0.0.1,localhost").sp
 
 # Application definition
 INSTALLED_APPS = [
+    'news',
     "main",
     "django.contrib.admin",
     "django.contrib.auth",
